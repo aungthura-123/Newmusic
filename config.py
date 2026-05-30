@@ -14,9 +14,9 @@ class Config:
         self.LOGGER_ID = int(getenv("LOGGER_ID", 0))
         self.OWNER_ID = int(getenv("OWNER_ID", 0))
 
-        self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 700)) * 60
-        self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20))
-        self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
+        self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 9000)) * 60
+        self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 50))
+        self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 50))
         self.API_URL = getenv("API_URL","https://console.cloud.google.com")
         self.YOUTUBE_API_KEY = getenv("YOUTUBE_API_KEY", "AIzaSyD8kGqfpnVb_u3_AyyhNY_Ui6_iw-8rVPI")
         
