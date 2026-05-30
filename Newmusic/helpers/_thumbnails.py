@@ -80,7 +80,7 @@ class Thumbnail:
             bg.paste(border_bg, (cx, cy), border_bg)
 
             # 3. Contact Text
-            contact = "If you want to create your own music bot, please contact @HEX_KING9"
+            contact = "If you want to create your own music bot, please contact @OfficialSheePhaw"
             draw.text((self.size[0]//2, 45), contact, font=self.font_small, fill="white", anchor="ma")
 
             # 4. Text & Info (ကျော်ထွက်ခြင်းကို ပြင်ဆင်ထားသော အပိုင်း)
