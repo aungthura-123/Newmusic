@@ -112,7 +112,7 @@ class Thumbnail:
             draw.text((tx_start + 400, ctrl_y), "»", font=self.font_title, fill="white", anchor="ma")
 
             # 8. Bottom Credit
-            draw.text((self.size[0]//2, self.size[1] - 45), "Credit by @HANTHAR999", font=self.font_credit, fill=(255, 255, 255, 180), anchor="ma")
+            draw.text((self.size[0]//2, self.size[1] - 45), "Credit by @OfficialSheePhaw", font=self.font_credit, fill=(255, 255, 255, 180), anchor="ma")
 
             bg.save(output, "PNG")
             return output
